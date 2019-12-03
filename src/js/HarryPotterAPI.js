@@ -1,3 +1,12 @@
+  //Importowanie plikow js'a
+
+  // import "./charactersView.js";
+  // import "./hatView.js"
+  // import "./houseView"
+  // import "./spellsView"
+  // import "./teachers"
+
+
 //funkcja wysyłająca zapytanie do API
 async function getResponse(URL) {
     let response;
@@ -313,27 +322,9 @@ async function getResponse(URL) {
     }
     return creatures
   }
-  //Importowanie plikow js'a
 
 
-  // function includeJS(file) { 
-  //   var script  = document.createElement('script'); 
-  //   script.src  = file; 
-  //   script.type = 'text/javascript'; 
-  //   script.defer = true; 
-  //   document.getElementsByTagName('head').item(0).appendChild(script); 
-  // } 
 
-  // includeJS('charactersView.js'); 
-  // includeJS('hatView.js'); 
-  // includeJS('houseView.js');
-  // includeJS('spellsView.js');
-  // includeJS('teachers.js');
-  
-
-
-  
-  
   
   
     
