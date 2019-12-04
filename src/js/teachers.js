@@ -17,6 +17,8 @@ const witek = document.querySelector('.witek');
 const teachers = [];
 const listOfTeachers = [];
 
+export {getResponse, resetLandingPage, teachersView, showAllProfesorsUsingApi, getTeachers, getNameOfteachers, letWizardSpeak, beQuiet, checkedIfLoad};
+
 async function getResponse(URL) {
     let response;
     await fetch(URL)
@@ -42,7 +44,6 @@ async function resetLandingPage(){
   const miArOrh4 =  document.querySelectorAll(".ministry_army_order_view h4");
   const miArOrLi =  document.querySelectorAll(".ministry_army_order_view li");
   const studentLi =  document.querySelectorAll(".scroll_container li");
-  const shiftCss = 
   spells.style.display ="none"
   teach.style.display="none"
   characters.style.display = "none"

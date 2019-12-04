@@ -17,6 +17,10 @@ spells.addEventListener('click', spellsView);
 btn_spells.addEventListener('click', displaySpellsList);
 btn_spells.addEventListener('click', spellsListAll);
 
+//export
+
+// export {spellsView, displaySpellsList, spellsListAll, spellsListAllSelected, spellsListCharm, spellsListCurse, spellsListEnch, spellsListHex, spellsListJinx, spellsListSpell};
+
 
 function spellsView(){
     back.push('spells')

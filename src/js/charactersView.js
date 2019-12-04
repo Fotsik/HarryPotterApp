@@ -23,6 +23,10 @@ let actualPage = 0;
 let pageNumbers = 1;
 let tempArrayForCharacters = [];
 
+//export 
+
+// export {charactersView, resetMainCharacterPage, showMainCharacterPage, resetSecondCharacterPage, showSpecies, showRole, showPageButtons, showElementsList, clickNextButton, clickPrevButton, countPages, pageElements, showCharacter};
+
 function charactersView(){
     main_characters.style.display="block";
     back_page.style.display = 'inline-block';

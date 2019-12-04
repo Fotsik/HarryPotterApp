@@ -1,10 +1,10 @@
   //Importowanie plikow js'a
 
-  // import "./charactersView.js";
-  // import "./hatView.js"
-  // import "./houseView"
-  // import "./spellsView"
-  // import "./teachers"
+  // import {getResponse, resetLandingPage, teachersView, showAllProfesorsUsingApi, getTeachers, getNameOfteachers, letWizardSpeak, beQuiet, checkedIfLoad} from './teachers.js';
+  // import "./hatView.js";
+  // import "./houseView.js";
+  // import "./spellsView.js";
+  // import "./teachers.js";
 
 
 //funkcja wysyłająca zapytanie do API

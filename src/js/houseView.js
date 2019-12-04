@@ -8,6 +8,10 @@ const students = houseButtons.querySelector(".students");
 const blockButtons = houseButtons.querySelector(".block_buttons");
 const divs = blockButtons.querySelectorAll("div");
 
+//export
+
+// export {getResponse, getHouse, getSlytherinMembers, getGryffindorMembers, getRavenclawMembers, getHufflepuffMembers, getHouseDumbledoresArmyMembers, getHouseOrderOfThePhoenixMembers, getMinistryOfMagicMembers, SlytherinView, GryffindorView, HufflepuffView, RavenclawView, SlytherinStudentsView, GryffindorStudentsView, HufflepuffStudentsView, RavenclawStudentsView, MinistryView, OrderView, ArmyView, MinistryMembers, OrderMembers, ArmyMembers};
+
 //przekopiowane z API, na razie tylko roboczo
 async function getResponse(URL) {
     let response;

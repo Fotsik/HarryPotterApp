@@ -16,6 +16,10 @@ const RavenclawClick = herbs.children[3];
 
 let back = ['main'];
 
+//export
+
+// export {randomView, resetMainPage, LandingPage, backingBack, removeChar, AnRav, animationDomIn, animationDomOut, animationDomRevIn, animationDomRevOut, animationHat, revAnimationHat};
+
 SlytherinClick.addEventListener('click',() => {
     resetLandingPage();
     SlytherinView();
